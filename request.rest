@@ -1,0 +1,10 @@
+
+POST http://localhost:3000/auth/login/?guid=12345678
+
+###
+POST http://localhost:3000/auth/refresh
+Content-Type: application/json
+
+{
+    "refreshToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJndWlkIjoiMTIzNDU2NzgiLCJpYXQiOjE2MTc5Nzc0ODAsImV4cCI6MTYxODA2Mzg4MH0.lqhrsivkJ9FcDxHnHc7odwvy1c286l3rwesSvCSrQNt1SPPpmy4x5kmKQeryevMCi6yiaBzn_Xr1xKWwp6jSZQ"
+}
